@@ -12,9 +12,12 @@ header {
 
 main {
   margin-top: 4rem;
-  height: calc(100vh - 4rem);
 }
 
-.row {
-  height: 100%;
+.card {
+  cursor: pointer;
+}
+
+input[type="radio"] {
+  display: none;
 }
